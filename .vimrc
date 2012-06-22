@@ -124,4 +124,4 @@ set nowritebackup
 
 
 source ~/.vim/my.vim
-" call pathogen#infect()
+call pathogen#infect()
