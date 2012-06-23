@@ -13,7 +13,7 @@ if filereadable("tags")
     set tags+=tags
 endif
 
-set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]=====>%([%{Tlist_Get_Tagname_By_Line()}]%)
+" set statusline=%F%m%r%h%w[%L][%{&ff}]%y[%p%%][%04l,%04v]=====>%([%{Tlist_Get_Tagname_By_Line()}]%)
 
 
 "Set foldmethod as syntax 

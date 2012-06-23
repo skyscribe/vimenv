@@ -1,4 +1,0 @@
-vimenv
-======
-
-My vim environment
