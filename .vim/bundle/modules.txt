@@ -1,0 +1,9 @@
+./nerdtree/.git
+./vim-fugitive/.git
+./vim-powerline/.git
+./snipmate.vim/.git
+./vim-nerdtree-tabs/.git
+./ctrlp.vim/.git
+./supertab/.git
+./c.vim/.git
+./colorselector.vim/.git
