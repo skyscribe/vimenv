@@ -17,7 +17,7 @@ endif
 " Terminal setting
 if &term =~ "xterm"
     if has("terminfo")
-        set t_Co=8
+        set t_Co=256
         set t_Sf=[3%p1%dm
         set t_Sb=[4%p1%dm
     else
@@ -27,6 +27,8 @@ if &term =~ "xterm"
     endif
 endif
 
+set laststatus=2    " Always show status line
+set encoding=utf-8
 
 " Use Vim settings, rather then Vi settings (much better!).
 " This must be first, because it changes other options as a side effect.
