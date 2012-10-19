@@ -75,25 +75,30 @@ endfunction
 let g:LookupFile_TagExpr = string(s:ftags)
 
 " Build function scripts
-set makeprg=$HOME/bin/mksim.sh\ $*
+set makeprg=$HOME/bin/make.sh\ $*
 
 " Tree explorer
 let treeExplVertical=1
 let treeExplWinSize=32
 let treeExplDirSort=1
 
+"make binding
+nmap <F6>  :make generate<CR>
+nmap <F7>  :make compile<CR>
+
+
 "===============================================================================
 "  NESIM Dev environment key bindings 
 "===============================================================================
 "
 " Key bindings....
-nmap <F11> :call ReloadNESIMTags()<CR>
-nmap <F12> :call RegenerateNESIMTags()<CR>
+"       nmap <F11> :call ReloadNESIMTags()<CR>
+"       nmap <F12> :call RegenerateNESIMTags()<CR>
 
-nmap <F6>  :make release<CR>
-nmap <F7>  :make debug<CR>
-nmap <F8>  :make debugpkg<CR>
-nmap <F9>  :make releasepkg<CR>
+"       nmap <F6>  :make release<CR>
+"       nmap <F7>  :make debug<CR>
+"       nmap <F8>  :make debugpkg<CR>
+"       nmap <F9>  :make releasepkg<CR>
 
 " Don't ignor alias in bash, problematic?
 "set shell=/bin/bash\ -i
@@ -102,3 +107,15 @@ nmap <F9>  :make releasepkg<CR>
 "===============================================================================
 "Pydiction
 let g:pydiction_location = '~/.vim/pydiction/complete-dict'
+
+
+"CtrlP options
+let g:ctrlp_max_files = 30000
+set wildignore+=*/.git/*,*/.hg/*,*/.svn/*,*/bin/*,
+let g:ctrlp_by_filename = 0
+let g:ctrlp_working_path_mode = 0
+let g:ctrlp_clear_cache_on_exit = 0
+nmap <C-N> :CtrlPMRUFiles<CR>
+nmap <C-L> :TlistToggle<CR>
+nmap <S-T> :NERDTree<CR>
+nmap <S-TC> :NERDTreeClose<CR>
