@@ -102,3 +102,7 @@ nmap <F9>  :make releasepkg<CR>
 "===============================================================================
 "Pydiction
 let g:pydiction_location = '~/.vim/pydiction/complete-dict'
+
+"CtrlP
+let g:ctrlp_match_window_bottom = 0
+let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$'
