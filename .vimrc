@@ -128,3 +128,6 @@ set nowritebackup
 source ~/.vim/my.vim
 call pathogen#infect()
 let g:pydiction_location='~/.vim/bundle/python/complete-dict'
+
+set tags+=~/trunk/mytags
+cscope add ~/trunk/cs.out ~/trunk
