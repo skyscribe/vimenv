@@ -119,4 +119,3 @@ let g:ctrlp_clear_cache_on_exit = 0
 nmap <C-N> :CtrlPMRUFiles<CR>
 nmap <C-L> :TlistToggle<CR>
 nmap <S-T> :NERDTree<CR>
-nmap <S-TC> :NERDTreeClose<CR>
