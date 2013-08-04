@@ -1,7 +1,11 @@
 #!/bin/bash
-cd .vim/bundle
-for dir in `find . -name ".git" | sed -n "s/\.git//gp"`;do
-    cd $dir
+bundleDir=`pwd`/.vim/bundle
+for dir in `find $bundleDir -name ".git" | sed -n "s/\.git//gp"`;do
+    echo "checking on .... === $dir"
+    pushd $dir > /dev/null
+    if git status | grep -v "branch master";then
+        git checkout master
+    fi
     git pull
-    cd -
+    popd > /dev/null
 done

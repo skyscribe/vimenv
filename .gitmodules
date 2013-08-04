@@ -40,3 +40,18 @@
 [submodule ".vim/bundle/zencoding-vim"]
 	path = .vim/bundle/zencoding-vim
 	url = https://github.com/mattn/zencoding-vim.git
+[submodule "bundle"]
+	path = bundle
+	url = https://github.com/sukima/xmledit.git
+[submodule ".vim/bundle/vim-latex"]
+	path = .vim/bundle/vim-latex
+	url = https://github.com/jcf/vim-latex.git
+[submodule ".vim/bundle/matchit.vim"]
+	path = .vim/bundle/matchit.vim
+	url = https://github.com/AKurilin/matchit.vim
+[submodule ".vim/bundle/surround.vim"]
+	path = .vim/bundle/surround.vim
+	url = https://github.com/vim-scripts/surround.vim
+[submodule ".vim/bundle/clange_complete.vim"]
+	path = .vim/bundle/clange_complete.vim
+	url = https://github.com/Rip-Rip/clang_complete
