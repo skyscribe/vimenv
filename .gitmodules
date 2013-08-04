@@ -55,3 +55,6 @@
 [submodule ".vim/bundle/clange_complete.vim"]
 	path = .vim/bundle/clange_complete.vim
 	url = https://github.com/Rip-Rip/clang_complete
+[submodule ".vim/bundle/vim-octopress"]
+	path = .vim/bundle/vim-octopress
+	url = https://github.com/tangledhelix/vim-octopress.git

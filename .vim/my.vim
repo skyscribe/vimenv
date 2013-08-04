@@ -120,3 +120,9 @@ nmap <C-N> :CtrlPMRUFiles<CR>
 nmap <C-L> :TlistToggle<CR>
 nmap <S-T> :NERDTree<CR>
 nmap <S-TC> :NERDTreeClose<CR>
+
+" Powerline
+let g:Powerline_stl_path_style="full"
+
+" Octopress markdown
+autocmd BufNewFile,BufRead *.markdown setfiletype octopress
