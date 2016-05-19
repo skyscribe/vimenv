@@ -83,8 +83,7 @@ let treeExplWinSize=32
 let treeExplDirSort=1
 
 "make binding
-nmap <F6>  :make generate<CR>
-nmap <F7>  :make compile<CR>
+nmap <F7>  :make ut<CR>
 
 
 "===============================================================================
@@ -126,3 +125,13 @@ let g:Powerline_stl_path_style="full"
 
 " Octopress markdown
 autocmd BufNewFile,BufRead *.markdown setfiletype octopress
+
+" Markdown setup
+let g:vim_markdown_folding_level=3
+let g:vim_markdown_toc_autofit=1
+set conceallevel=2
+
+" TTCN3 support
+au BufNewFile,BufRead *.ttcn3 setf ttcn
+au BufNewFile,BufRead *.ttcn setf ttcn
+au BufNewFile,BufRead *.antlr setf antlr

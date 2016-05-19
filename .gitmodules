@@ -58,3 +58,24 @@
 [submodule ".vim/bundle/vim-octopress"]
 	path = .vim/bundle/vim-octopress
 	url = https://github.com/tangledhelix/vim-octopress.git
+[submodule ".vim/bundle/Replay"]
+	path = .vim/bundle/Replay
+	url = https://github.com/chrisbra/Replay.git
+[submodule ".vim/bundle/LanguageTool"]
+	path = .vim/bundle/LanguageTool
+	url = https://github.com/vim-scripts/LanguageTool.git
+[submodule ".vim/bundle/vim-markdown"]
+	path = .vim/bundle/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown.git
+[submodule ".vim/bundle/plantuml-syntax"]
+	path = .vim/bundle/plantuml-syntax
+	url = https://github.com/aklt/plantuml-syntax.git
+[submodule ".vim/bundle/vim-swift"]
+	path = .vim/bundle/vim-swift
+	url = https://github.com/toyamarinyon/vim-swift.git
+[submodule ".vim/bundle/vim-ttcn"]
+	path = .vim/bundle/vim-ttcn
+	url = https://github.com/gustafj/vim-ttcn.git
+[submodule ".vim/bundle/bats.vim"]
+	path = .vim/bundle/bats.vim
+	url = https://github.com/vim-scripts/bats.vim.git

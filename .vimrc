@@ -124,6 +124,7 @@ command DiffOrig vert new | set bt=nofile | r # | 0d_ | diffthis
 set nobackup
 set nowritebackup
 
+let g:clang_library_path='/usr/lib/llvm-3.6/lib'
 
 source ~/.vim/my.vim
 call pathogen#infect()
